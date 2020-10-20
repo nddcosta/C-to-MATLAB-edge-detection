@@ -4,7 +4,7 @@ imshow(img, []);
 </pre><img vspace="5" hspace="5" src="html/test_01.png" alt=""> <h2 id="2">Convert image to gray scale</h2><pre class="codeinput">grayImg = rgb2gray(img);
 im = double(grayImg);
 imshow(im, []);
-</pre><img vspace="5" hspace="5" src="html/test_02.png" alt=""> <h2 id="3">Call custom C sobel edge detection code</h2><pre class="codeinput">imsize = int32(size(im));
+</pre><img vspace="5" hspace="5" src="html/test_02.png" alt=""> <h2 id="3">Call custom C Sobel edge detection code</h2><pre class="codeinput">imsize = int32(size(im));
 C_edgeDetectedImg = edgeDetection_mex(im, imsize);
 imshow(C_edgeDetectedImg, []);
 </pre><pre class="codeoutput">Running custom edge detection code...
