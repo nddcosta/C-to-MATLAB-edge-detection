@@ -1,6 +1,0 @@
-function y = edgeDetection(s, imsize)
-    y = coder.nullcopy(zeros(258, 460));
-    
-    if coder.target('MEX')
-        coder.updateBuildInfo('addSourceFiles', 'edge_detection.c');
-        coder.updateBuildInfor('add
