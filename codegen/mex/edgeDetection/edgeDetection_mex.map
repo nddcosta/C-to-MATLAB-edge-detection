@@ -1,0 +1,7 @@
+_mexFunction
+_mexfilerequiredapiversion
+_emlrtMexFcnProperties
+_edgeDetection_initialize
+_edgeDetection_terminate
+_edgeDetection_atexit
+_edgeDetection
