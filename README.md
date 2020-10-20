@@ -11,5 +11,5 @@ imshow(C_edgeDetectedImg, []);
 
 </pre><img vspace="5" hspace="5" src="html/test_03.png" alt=""> <h2 id="4">Threshold image</h2><pre class="codeinput">threshImg = C_edgeDetectedImg &gt; 240;
 imshow(threshImg, []);
-</pre><img vspace="5" hspace="5" src="/htmltest_04.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2019b</a><br></p></div>
+</pre><img vspace="5" hspace="5" src="/html/test_04.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2019b</a><br></p></div>
 </body></html>
